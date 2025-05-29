@@ -587,6 +587,7 @@ li:hover:before{
     font-weight: 300;
     padding-top: 55px;
     font-family: "Roboto", sans-serif;
+    color: #8A8C8E;
 
 }
 .sec6-top p{
@@ -604,10 +605,10 @@ li:hover:before{
  .sec6-main{
     display: flex;
  }
+ 
 .carousel-wrapper {
-  width: 500px; 
+  width: 680px; 
   overflow: hidden;
-  border: 1px solid #ccc;
   margin: 20px auto;
 }
 
@@ -618,11 +619,103 @@ li:hover:before{
 
 .sec6-main {
   flex-shrink: 0; 
-  width: 500px;    
+  width: 680px;    
   display: flex;
+  justify-content: center;
   padding: 20px;
-  box-sizing: border-box;
+  align-items: center;
+  border-left: 3px solid #CC1212;
+  padding-left: 28px;
+ 
 }
+.fa-star{
+    color: #FFC107;
+}
+.fa-quote-left,.fa-quote-right{
+    color:#E08282;
+}
+.sec6-main span{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 360;
+    font-size: 200;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.sec6-main img{
+    border-radius: 50%;
+}
+.sec6-main h3,.sec6-main h4{
+    font-family: "Amatic SC", sans-serif;
+}
+.sec6-main h4{
+    color: #D9D9DA;
+}
+.sec6-main .gap{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sec7{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+  } 
+
+.sec7 .one-img{
+
+    background-image:linear-gradient(to bottom right,rgba(20, 20, 20, 0.61),rgba(74, 74, 75, 0.5)),url(../images/events-1.jpg);
+    background-size: cover;
+    width: 448px ;
+    height: 600px;
+    
+}
+.sec7 .two-img{
+    
+    background-image:linear-gradient(to bottom right,rgba(20, 20, 20, 0.61),rgba(74, 74, 75, 0.5)),url(../images/events-2.jpg);
+    background-size: cover;
+    width: 448px;
+    height: 600px;
+}
+.sec7 .tr-img{ 
+    background-image:linear-gradient(to bottom right,rgba(20, 20, 20, 0.61),rgba(17, 17, 19, 0.932)),url(../images/events-3.jpg);
+    background-size: cover;
+    width: 448px;
+    height: 600px;
+}
+.sec7 .fr-img{
+  
+    background-image:linear-gradient(to bottom right,rgba(20, 20, 20, 0.61),rgba(74, 74, 75, 0.5)),url(../images/events-4.jpg);
+    background-size: cover;
+    /* width: 8px; */
+    height: 600px;
+    
+}
+/*.sec7-img{
+    object-fit: fill;
+    
+   
+}
+
+.div-first-image,.div-taniya,.div-talta,.div-quatre{
+    height: 600px;
+    background-color: red;
+}
+.premiere-img,.dexieme-img,.troisième-img,.quatrieme-img{
+    height: inherit;
+    object-position: left;
+    object-fit:cover;
+    
+}
+.div-first-image{
+    position: relative;
+}
+.custom{
+    position: absolute;
+    
+} */
 
 
 

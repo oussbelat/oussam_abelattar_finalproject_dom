@@ -105,7 +105,7 @@ loginBtn.addEventListener('click', () => {
   
   
 document.addEventListener('DOMContentLoaded', () => {
-  let carousel = document.querySelector('.allcaroussel');
+  let carousel = document.querySelector('.allcaroussel')
   let items = document.querySelectorAll('.sec6-main');
   let totalItems = items.length;
 
