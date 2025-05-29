@@ -72,38 +72,26 @@ loginBtn.addEventListener('click', () => {
   loginButton.style.fontSize = '16px';
   loginButton.style.borderRadius = '5px';
   loginButton.style.cursor = 'pointer';
-
-
   modal.appendChild(closeButton);
   modal.appendChild(emailInput);
   modal.appendChild(passwordInput);
   modal.appendChild(loginButton);
-
   body.appendChild(mydiv);
   body.appendChild(modal);
-
   closeButton.addEventListener('click', () => {
     modal.remove();
     mydiv.remove();
   });
 });
-
-
   //^ HADI DYAL MENU 
  const items = document.querySelectorAll(".menu-item");
-
-  
   const title = document.querySelector(".selected-title");
-
-  
   items.forEach(item => {
     item.addEventListener("click", () => {
       title.textContent = item.textContent;
     });
   });
   //^CAROUSELLE
-  
-  
 document.addEventListener('DOMContentLoaded', () => {
   let carousel = document.querySelector('.allcaroussel')
   let items = document.querySelectorAll('.sec6-main');
@@ -111,22 +99,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentIndex = 0;
   let itemWidth = items[0].offsetWidth;
-
   function moveCarousel() {
     currentIndex++;
     if (currentIndex >= totalItems) currentIndex = 0;
     carousel.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
   }
-
   setInterval(moveCarousel, 3000);
 });
-
-
-
-
 let navToggle = document.querySelector('.fa-bars');
 let navMenu = document.querySelector('.nav ul');
-
 navToggle.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
