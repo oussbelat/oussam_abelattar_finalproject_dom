@@ -803,6 +803,32 @@ align-items: center;
     position: absolute;
     
 } */
+.containers{
+    display: flex;
+}
+.allinput >.inputs>.inp{
+  padding: 14px 20px;
+
+}
+.allinput>.inputs{
+    padding: 23px;
+}
+.inputs{
+    display: flex;
+    gap:20px;
+   
+}
+
+.allinput{
+    padding-top: 50px;
+}
+.allinput{
+    padding: 23px;
+}
+
+
+
+
 
 /*respo*/
 @media (max-width: 425px) {
@@ -825,6 +851,7 @@ align-items: center;
     flex-direction: column;
     
   }
+  
 
   ul {
     flex-direction: column;
