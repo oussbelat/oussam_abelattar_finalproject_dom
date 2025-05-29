@@ -661,6 +661,8 @@ li:hover:before{
     width: 100%;
     display: flex;
     overflow: hidden;
+    
+   
 
   } 
 
@@ -692,6 +694,41 @@ li:hover:before{
     /* width: 8px; */
     height: 600px;
     
+}
+.one-img,.two-img,.tr-img{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom:20px ;
+    padding-inline: 27px;
+    
+}
+.one-img h3,.two-img h3,.tr-img h3{
+    font-family: "Amatic SC", sans-serif;
+font-size: 25px;
+padding-bottom: 16px;
+display: flex;
+align-items: center;
+
+   
+}
+.sec7 .price{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom:2px solid #CC1212;
+    width: fit-content;
+
+    
+}
+.sec7 .prag{
+    font-family: "Roboto", sans-serif;
+    padding-top: 14px;
+
+}
+.sec8-top{
+    padding-top: 90px;
 }
 /*.sec7-img{
     object-fit: fill;
